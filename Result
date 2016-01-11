@@ -5,6 +5,7 @@
     <title>Title of the document</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel=stylesheet type="text/css" href="test.css"> 
 </head>
 
 <body class="container">
@@ -14,7 +15,7 @@
             <button type="button" class="btn btn-info">Monday</button>
             <br><br>
             <div class ="row">
-                <div class = "col-md-5">
+                <div class = "col-md-5" id="search">
                     <p>時段</p>
                     <p>1700</p>
                     <p>1900</p>
@@ -31,7 +32,7 @@
             </div>
             <br>
             <div class ="row">
-                <div class = "col-md-5">
+                <div class = "col-md-5" id="search2">
                     <p>時段</p>
                     <p>1900</p>
                     <p>2100</p>
